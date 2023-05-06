@@ -14,5 +14,9 @@ public class Test6Controller {
 	public void printValue() {
 		System.out.println("RADHA");
 	} 
+	@GetMapping("balram")
+	public void printValue() {
+		System.out.println("RADHA");
+	} 
 
 }
