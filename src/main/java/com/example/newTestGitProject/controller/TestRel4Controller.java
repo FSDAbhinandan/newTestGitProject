@@ -14,7 +14,7 @@ public class TestRel4Controller {
 		System.out.println("GAME");
 	} 
 	@GetMapping("/fame")
-	public void printGame() {
+	public void printFame() {
 		System.out.println("Fame");
 	} 
 }
