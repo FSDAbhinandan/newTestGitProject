@@ -15,4 +15,12 @@ public class TestRel1 {
 	public void printAddress() {
 		System.out.println("Address");
 	} 
+	@GetMapping("/age")
+	public void printAge() {
+		System.out.println("Address");
+	} 
+	@GetMapping("/id")
+	public void printId() {
+		System.out.println("Address");
+	} 
 }
