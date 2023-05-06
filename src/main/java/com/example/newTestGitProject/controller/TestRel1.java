@@ -12,7 +12,7 @@ public class TestRel1 {
 	} 
 	
 	@GetMapping("/address")
-	public void printName() {
+	public void printAddress() {
 		System.out.println("Address");
 	} 
 }
