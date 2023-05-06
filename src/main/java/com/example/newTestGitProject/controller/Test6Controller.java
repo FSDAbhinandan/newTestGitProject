@@ -8,7 +8,11 @@ public class Test6Controller {
 	
 	@GetMapping("Shyam")
 	public void printValue() {
-		System.out.println("Value");
+		System.out.println("SHYAM");
+	} 
+	@GetMapping("radha")
+	public void printValue() {
+		System.out.println("RADHA");
 	} 
 
 }
