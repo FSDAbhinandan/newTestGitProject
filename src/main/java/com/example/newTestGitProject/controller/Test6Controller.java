@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test6Controller {
 	
 	@GetMapping("Shyam")
-	public void printValue() {
+	public void printShyam() {
 		System.out.println("SHYAM");
 	} 
 	@GetMapping("radha")
