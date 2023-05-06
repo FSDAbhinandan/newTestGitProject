@@ -9,6 +9,9 @@ public class TestRel4Controller {
 	public void printName() {
 		System.out.println("NAME");
 	} 
-	
+	@GetMapping("/game")
+	public void printName() {
+		System.out.println("GAME");
+	} 
 
 }
